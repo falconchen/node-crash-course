@@ -4,8 +4,8 @@
   "description": "practice for learning node.js",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server.js",
-    "start": "node server.js"
+    "test": "nodemon app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   "author": "falcon",
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "express": "^4.17.1",
     "lodash": "^4.17.20"
   }
 }
